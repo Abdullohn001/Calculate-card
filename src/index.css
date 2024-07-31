@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbarBg {
+    background-image: url("../public/images/bg-sidebar-desktop.svg");
+    background-size: cover;
+  }
+
+  .active {
+    @apply bg-[#BEE2FD] text-black;
+  }
+}
